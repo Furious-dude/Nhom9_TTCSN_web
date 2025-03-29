@@ -1,0 +1,23 @@
+.menu_mega .list_menu_header .ul_menu .ul_content_right_1 {
+  width: 900px;
+  max-width: 250px; }
+
+.menu_mega .list_menu_header .ul_menu .nav_item:hover > .ul_content_right_1 > li {
+  width: auto;
+  flex: 0 0 100%;
+  height: auto; }
+
+.menu_mega .ul_content_right_2 {
+  display: none !important; }
+
+.list_menu_header .ul_menu .nav_item:hover > .ul_content_right_1 {
+  display: block; }
+
+.list_menu_header .ul_menu .nav_item:hover > .ul_content_right_1 {
+  gap: 0; }
+
+.list_menu_header .ul_menu .ul_content_right_1 .nav_item > a {
+  font-weight: 400; }
+
+.menu_mega .list_menu_header .ul_menu .nav_item:hover > .ul_content_right_1 > li {
+  width: 100%; }
