@@ -879,7 +879,6 @@
     height: 200px;
     padding: 20px;
     border: 1px solid var(--grey1);
-    cursor: pointer;
     position: relative;
 }
 
@@ -900,6 +899,7 @@
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
     position: relative;
+    cursor: pointer;
 }
 
 .bestSeller-item__hoverdButton-addToCartIcon-container:hover,
@@ -1045,7 +1045,6 @@
     align-items: center;
     border: 1px solid var(--grey1);
     padding: 16px;
-    cursor: pointer;
     position: relative;
 }
 
@@ -1057,6 +1056,7 @@
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .saleProduct-item__hoverdButton-addToCartIcon-container,
@@ -1259,7 +1259,6 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    cursor: pointer;
     height: 246.2px;
     position: relative;
 }
@@ -1272,6 +1271,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category1-item__hoverdButton-addToCartIcon-container,
@@ -1347,6 +1347,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category2-item__hoverdButton-addToCartIcon-container,
@@ -1422,6 +1423,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category3-item__hoverdButton-addToCartIcon-container,
@@ -1497,6 +1499,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category4-item__hoverdButton-addToCartIcon-container,
@@ -1572,6 +1575,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category5-item__hoverdButton-addToCartIcon-container,
@@ -1647,6 +1651,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category6-item__hoverdButton-addToCartIcon-container,
@@ -1722,6 +1727,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .category8-item__hoverdButton-addToCartIcon-container,
@@ -2121,4 +2127,38 @@
 
 .footer__ending-text1 {
     margin-bottom: 5px;
+}
+
+.scrollToTopButton {
+    background-color: var(--blue1);
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+
+.scrollToTopButton__icon {
+    font-size: 26px;
+    color: var(--white1);
+}
+
+.messengerContact__icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 46px;
+    color: var(--blue1);
+    cursor: pointer;
+}
+
+.emailContact__icon {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    font-size: 46px;
+    color: var(--blue1);
+    cursor: pointer;
 }
