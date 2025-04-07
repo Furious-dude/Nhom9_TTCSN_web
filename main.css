@@ -1179,8 +1179,9 @@
 
 .saleProduct-item__hotSaleIcon {
     position: absolute;
-    top: 12px;
+    top: 2px;
     left: 12px;
+    height: 70px;
 }
 
 .content__saleProduct-item1:hover,
@@ -1964,8 +1965,9 @@
 .category2-item__hotSaleIcon,
 .category6-item__hotSaleIcon {
     position: absolute;
-    top: 12px;
+    top: 2px;
     left: 12px;
+    height: 70px;
 }
 
 .content__category2-item7::after,
