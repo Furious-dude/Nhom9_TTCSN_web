@@ -372,7 +372,10 @@
     position: relative;
 }
 
-.header__navBar-news {
+.header__navBar-news,
+.header__navBar-introduction,
+.header__navBar-onlineBill,
+.header__navBar-recruitment {
     text-decoration: none;
     color: var(--white1);
 }
@@ -2175,7 +2178,10 @@
 
 .content-servicePage,
 .content-solutionPage,
-.content-newsPage {
+.content-newsPage,
+.content-introductionPage,
+.content-onlineBillPage,
+.content-recruitmentPage {
     margin-top: 161px;
 }
 
@@ -2217,7 +2223,8 @@
 
 .serviceList__item,
 .solutionList__item,
-.newsList__item {
+.newsList__item,
+.recruitmentList__item {
     padding-top: 16px;
     display: flex;
     cursor: pointer;
@@ -2252,16 +2259,22 @@
     color: var(--red1);
 }
 
+.recruitmentList__item1:hover {
+    color: var(--red1);
+}
+
 .serviceList__item-img,
 .solutionList__item-img,
-.newsList__item-img {
+.newsList__item-img,
+.recruitmentList__item-img {
     height: 100px;
     width: 140px;
 }
 
 .serviceList__item-name,
 .solutionList__item-name,
-.newsList__item-name {
+.newsList__item-name,
+.recruitmentList__item-name {
     margin-left: 10px;
     font-size: 16px;
     text-transform: uppercase;
@@ -2363,4 +2376,38 @@
     cursor: not-allowed;
     background-color: var(--red1);
     color: var(--white1);
+}
+
+.content-introductionPage__qualityManagementSystemAchieved {
+    margin-bottom: 16px;
+}
+
+.content-introductionPage__introText {
+    padding: 10px 0px;
+    line-height: 30px;
+}
+
+.content-introductionPage__workField-heading {
+    margin-bottom: 10px;
+}
+
+.content-introductionPage__workField-list,main,
+.qualityManagementSystemAchieved__list {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.qualityManagementSystemAchieved__heading {
+    margin: 10px 0px;
+}
+
+.content-onlineBillPage__billSearching {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.content-onlineBillPage__billSearching-before {
+    margin: 10px 0px;
 }
