@@ -18,7 +18,7 @@
                 <input type="text" class="searchContainer__input" placeholder="Nhập sản phẩm cần tìm">
                 <i class="fa-solid fa-magnifying-glass searchContainer__searchIcon"></i>
             </div>
-            <div class="header__phoneNumber">
+            <div class="header__phoneNumber hideOnLg hideOnMd hideOnSm hideOnXsm">
                 <div class="phoneNumber__hotline header__phoneNumber--separate">
                     <span class="phoneNumber__hotline-text">
                         Hotline
@@ -110,7 +110,7 @@
             </div>
         </div>
         <div class="header__part2">
-            <div class="header__category">
+            <div class="header__category hideOnMd hideOnSm hideOnXsm">
                 <i class="fa-solid fa-bars header__categoryIcon"></i>
                 <span class="header__categoryText">
                     Danh mục
@@ -301,7 +301,7 @@
                     </div>
                 </div>
             </div>
-            <div class="header__navBar">
+            <div class="header__navBar hideOnMd hideOnSm hideOnXsm">
                 <span class="header__navBar-item header__navBar-service">
                     <a href="servicePage.html" class="header__navBar-service-text">
                         Dịch vụ
@@ -368,14 +368,223 @@
                     Giới thiệu
                 </a>
                 <a href="onlineBillPage.html" class="header__navBar-item header__navBar-onlineBill">
-                    Hóa đơn điện tử
+                    HĐ điện tử
                 </a>
                 <span class="header__navBar-item header__navBar-warranty">
-                    Tiếp nhận bảo hành
+                    Tiếp nhận BH
                 </span>
                 <a href="recruitmentPage.html" class="header__navBar-item header__navBar-recruitment">
                     Tuyển dụng
                 </a>
+            </div>
+            <div class="header__categoryForBelowLarge showOnMd showOnSm showOnXsm">
+                <div class="header__categoryForBelowLarge-heading">
+                    <i class="fa-solid fa-bars header__categoryForBelowLarge-icon"></i>
+                    <span class="header__categoryForBelowLarge-heading">
+                        Danh mục
+                    </span>
+                </div>
+                <div class="header__categoryForBelowLarge-list">
+                    <div onclick="subMenu1Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item1">
+                        Thiết bị nhà bếp
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item1-subMenu" id="categoryForBelowLarge__item1-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item1">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Bếp gas - Bếp điện - Bếp từ 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item2">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Lò vi sóng - Lò nướng 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item3">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Máy hút mùi
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item4">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Nồi cơm điện - Nồi áp suất 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item5">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Máy xay sinh tố 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item6">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Ấm siêu tốc 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item1-subMenu-item7">
+                            <span class="categoryForBelowLarge__item1-subMenu-item-icon"></span>
+                            Tủ lạnh 
+                        </div>
+                    </div>
+                    <div onclick="subMenu2Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item2">
+                        Thiết bị giặt ủi
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item2-subMenu" id="categoryForBelowLarge__item2-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item2-subMenu-item1">
+                            <span class="categoryForBelowLarge__item2-subMenu-item-icon"></span>
+                            Máy giặt cửa trên/Cửa trước 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item2-subMenu-item2">
+                            <span class="categoryForBelowLarge__item2-subMenu-item-icon"></span>
+                            Máy sấy quần áo 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item2-subMenu-item3">
+                            <span class="categoryForBelowLarge__item2-subMenu-item-icon"></span>
+                            Máy giặt sấy kết hợp 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item2-subMenu-item4">
+                            <span class="categoryForBelowLarge__item2-subMenu-item-icon"></span>
+                            Bàn ủi khô - Bàn ủi hơi nước 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item2-subMenu-item5">
+                            <span class="categoryForBelowLarge__item2-subMenu-item-icon"></span>
+                            Tủ sấy quần áo 
+                        </div>
+                    </div>
+                    <div onclick="subMenu3Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item3">
+                        Thiết bị làm mát và sưởi
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item3-subMenu" id="categoryForBelowLarge__item3-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item3-subMenu-item1">
+                            <span class="categoryForBelowLarge__item3-subMenu-item-icon"></span>
+                            Quạt điện 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item3-subMenu-item2">
+                            <span class="categoryForBelowLarge__item3-subMenu-item-icon"></span>
+                            Máy làm mát không khí 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item3-subMenu-item3">
+                            <span class="categoryForBelowLarge__item3-subMenu-item-icon"></span>
+                            Điều hòa 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item3-subMenu-item4">
+                            <span class="categoryForBelowLarge__item3-subMenu-item-icon"></span>
+                            Máy sưởi - Quạt sưởi 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item3-subMenu-item5">
+                            <span class="categoryForBelowLarge__item3-subMenu-item-icon"></span>
+                            Máy tạo độ ẩm - Máy hút ẩm 
+                        </div>
+                    </div>
+                    <div onclick="subMenu4Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item4">
+                        Thiết bị vệ sinh nhà cửa 
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item4-subMenu" id="categoryForBelowLarge__item4-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item4-subMenu-item1">
+                            <span class="categoryForBelowLarge__item4-subMenu-item-icon"></span>
+                            Máy hút bụi 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item4-subMenu-item2">
+                            <span class="categoryForBelowLarge__item4-subMenu-item-icon"></span>
+                            Robot hút bụi/Lau nhà 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item4-subMenu-item3">
+                            <span class="categoryForBelowLarge__item4-subMenu-item-icon"></span>
+                            Máy lau sàn điện 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item4-subMenu-item4">
+                            <span class="categoryForBelowLarge__item4-subMenu-item-icon"></span>
+                            Máy lọc không khí 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item4-subMenu-item5">
+                            <span class="categoryForBelowLarge__item4-subMenu-item-icon"></span>
+                            Máy khử mùi/Khử trùng 
+                        </div>
+                    </div>
+                    <div onclick="subMenu5Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item5">
+                        Thiết bị chăm sóc cá nhân 
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item5-subMenu" id="categoryForBelowLarge__item5-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item1">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Máy sấy tóc 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item2">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Máy uốn/Duỗi tóc 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item3">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Máy cạo râu 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item4">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Máy lmassage 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item5">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Bàn chải điện - Máy tăm nước 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item5-subMenu-item6">
+                            <span class="categoryForBelowLarge__item5-subMenu-item-icon"></span>
+                            Cân sức khỏe - Nhiệt kế điện tử 
+                        </div>
+                    </div>
+                    <div onclick="subMenu6Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item6">
+                        Thiết bị điện dân dụng 
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item6-subMenu" id="categoryForBelowLarge__item6-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item6-subMenu-item1">
+                            <span class="categoryForBelowLarge__item6-subMenu-item-icon"></span>
+                            Đèn bàn - Đèn ngủ - Đèn LED 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item6-subMenu-item2">
+                            <span class="categoryForBelowLarge__item6-subMenu-item-icon"></span>
+                            Đèn cảm biến - Đèn pin sạc 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item6-subMenu-item3">
+                            <span class="categoryForBelowLarge__item6-subMenu-item-icon"></span>
+                            Ổ cắm điện - Dây điện 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item6-subMenu-item4">
+                            <span class="categoryForBelowLarge__item6-subMenu-item-icon"></span>
+                            Ổn áp - Bộ lưu điện UPS 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item6-subMenu-item5">
+                            <span class="categoryForBelowLarge__item6-subMenu-item-icon"></span>
+                            Công tắc điện - Thiết bị hẹn giờ 
+                        </div>
+                    </div>
+                    <div class="categoryForBelowLarge__item categoryForBelowLarge__item7">
+                        Thiết bị lọc nước 
+                    </div>
+                    <div onclick="subMenu8Display()" class="categoryForBelowLarge__item categoryForBelowLarge__item8">
+                        Thiết bị giải trí gia đình 
+                        <i class="fa-solid fa-angle-down categoryForBelowLarge__item-downArrow"></i>
+                    </div>
+                    <div class="categoryForBelowLarge__item-subMenu categoryForBelowLarge__item8-subMenu" id="categoryForBelowLarge__item8-subMenu">
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item8-subMenu-item1">
+                            <span class="categoryForBelowLarge__item8-subMenu-item-icon"></span>
+                            Tivi 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item8-subMenu-item2">
+                            <span class="categoryForBelowLarge__item8-subMenu-item-icon"></span>
+                            Loa Bluetooth - Loa thanh soundbar 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item8-subMenu-item3">
+                            <span class="categoryForBelowLarge__item8-subMenu-item-icon"></span>
+                            Đầu phát truyền hình - Android box 
+                        </div>
+                        <div class="categoryForBelowLarge__item-subMenu-item categoryForBelowLarge__item8-subMenu-item4">
+                            <span class="categoryForBelowLarge__item8-subMenu-item-icon"></span>
+                            Dàn âm thanh mini 
+                        </div>
+                    </div>
+                    <div class="categoryForBelowLarge__item categoryForBelowLarge__item9">
+                        Thiết bị thông minh 
+                    </div>
+                    <div class="categoryForBelowLarge__item categoryForBelowLarge__item10">
+                        Thiết bị an ninh và báo động 
+                    </div>
+                </div>
             </div>
         </div>
     </div>

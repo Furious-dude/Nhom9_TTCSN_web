@@ -105,6 +105,10 @@
 
 /*xl*/
 @media (min-width: 1200px) and (max-width: 1399px) {
+    .header {
+        width: 1140px;
+    }
+
     .grid {
         max-width: 1140px;
     }
@@ -191,6 +195,36 @@
 
 /*lg*/
 @media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        width: 960px;
+    }
+
+    .header__navBar-item {
+        padding: 0px 10px;
+    }
+
+    .header__navBar-solution,
+    .header__navBar-service {
+        padding: 0px 20px;
+    }
+
+    .header__navBar-service-arrow,
+    .header__navBar-solution-arrow {
+        right: 5px;
+    }
+
+    .header__homePage-link {
+        margin-right: 0px;
+    }
+
+    .header__searchContainer {
+        margin: 0px 16px 0px auto;
+    }
+
+    .hideOnLg {
+        display: none;
+    }
+
     .grid {
         max-width: 960px;
     }
@@ -277,6 +311,26 @@
 
 /*md*/
 @media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        width: 720px;
+    }
+
+    .header__homePage-link {
+        margin-right: 0px;
+    }
+
+    .header__searchContainer {
+        margin: 0px 16px 0px auto;
+    }
+
+    .hideOnMd {
+        display: none;
+    }
+
+    .showOnMd {
+        display: block;
+    }
+
     .grid {
         max-width: 720px;
     }
@@ -363,6 +417,30 @@
 
 /*sm*/
 @media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        width: 540px;
+    }
+
+    .header__homePage-link {
+        margin-right: 0px;
+    }
+
+    .header__searchContainer {
+        margin: 0px 16px 0px auto;
+    }
+
+    .searchContainer__input {
+        padding-right: 50px;
+    }
+
+    .hideOnSm {
+        display: none;
+    }
+
+    .showOnSm {
+        display: block;
+    }
+
     .grid {
         max-width: 540px;
     }
@@ -449,6 +527,46 @@
 
 /*xsm*/
 @media (max-width: 575px) {
+    .header {
+        width: 100%;
+    }
+
+    .header__homePage-link {
+        margin-right: 0px;
+    }
+
+    .header__searchContainer {
+        margin: 0px 16px 0px auto;
+    }
+
+    .searchContainer__input {
+        padding-right: 0px;
+    }
+
+    .header_shoppingCart::after {
+        content: "2";
+        display: block;
+        width: 50%;
+        height: 50%;
+        background-color: var(--white1);
+        border: 0.5px solid var(--black);
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hideOnXsm {
+        display: none;
+    }
+
+    .showOnXsm {
+        display: block;
+    }
+
     .grid {
         max-width: 100%;
     }
