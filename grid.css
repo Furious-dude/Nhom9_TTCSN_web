@@ -256,6 +256,10 @@
         height: 220px;
     }
 
+    .content__navBar-item5 {
+        margin-top: 20px;
+    }
+
     .hideOnLg {
         display: none;
     }
@@ -375,6 +379,11 @@
     .content__banner2-middle,
     .content__banner2-right {
         height: 170px;
+    }
+
+    .content__navBar-item4,
+    .content__navBar-item5 {
+        margin-top: 20px;
     }
 
     .hideOnMd {
@@ -506,6 +515,12 @@
 
     .content__banner2-middle {
         height: 230px;
+    }
+
+    .content__navBar-item3,
+    .content__navBar-item4,
+    .content__navBar-item5 {
+        margin-top: 20px;
     }
 
     .hideOnSm {
@@ -653,6 +668,12 @@
 
     .content__banner2-middle {
         height: 220px;
+    }
+
+    .content__navBar-item3,
+    .content__navBar-item4,
+    .content__navBar-item5 {
+        margin-top: 20px;
     }
 
     .hideOnXsm {
