@@ -801,9 +801,6 @@
     padding: 20px 0px;
     background-color: var(--white1);
     border: 1px dotted var(--grey1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .content__service-transportMethod,

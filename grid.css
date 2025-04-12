@@ -241,6 +241,21 @@
         margin: 0px 16px 0px auto;
     }
 
+    .content__leftBanner {
+        height: 334px;
+    }
+    
+    .content__rightBanner-up,
+    .content__rightBanner-down {
+        height: 155px;
+    }
+
+    .content__banner2-left,
+    .content__banner2-middle,
+    .content__banner2-right {
+        height: 220px;
+    }
+
     .hideOnLg {
         display: none;
     }
@@ -350,7 +365,18 @@
     .header__searchContainer {
         margin: 0px 16px 0px auto;
     }
-    
+
+    .content__service-customerIntroduce,
+    .content__service-customerSupport {
+        margin-top: 20px;
+    }
+
+    .content__banner2-left,
+    .content__banner2-middle,
+    .content__banner2-right {
+        height: 170px;
+    }
+
     .hideOnMd {
         display: none;
     }
@@ -467,6 +493,19 @@
 
     .searchContainer__input {
         padding-right: 50px;
+    }
+    
+    .content__leftBanner {
+        height: 300px;
+    }
+
+    .content__service-customerIntroduce,
+    .content__service-customerSupport {
+        margin-top: 20px;
+    }
+
+    .content__banner2-middle {
+        height: 230px;
     }
 
     .hideOnSm {
@@ -601,6 +640,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .content__leftBanner {
+        height: 300px;
+    }
+
+    .content__service-customerIntroduce,
+    .content__service-customerSupport {
+        margin-top: 20px;
+    }
+
+    .content__banner2-middle {
+        height: 220px;
     }
 
     .hideOnXsm {
