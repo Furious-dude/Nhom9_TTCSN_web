@@ -2345,17 +2345,20 @@
 
 .content__newsList-item-img {
     height: 63px;
-    width: 123px;
+    min-width: 123px;
 }
 
 .content__newsList-item {
     margin: 16px 0px;
     display: flex;
+    justify-content: space-between;
     cursor: pointer;
 }
 
 .content__newsList-item-name {
     margin-left: 10px;
+    width: 290px;
+    max-width: 290px;
 }
 
 .content__newsList-item1:hover,

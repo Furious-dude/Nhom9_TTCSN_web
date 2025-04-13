@@ -121,6 +121,26 @@
         width: 1140px;
     }
     
+    .content__category1-item5,
+    .content__category2-item5,
+    .content__category3-item5,
+    .content__category4-item5,
+    .content__category5-item5,
+    .content__category6-item5,
+    .content__category8-item5 {
+        margin-top: 20px;
+    }
+
+    .news_img {
+        height: 130px;
+    }
+
+    .serviceList__item-img {
+        height: 90px;
+        width: 130px;
+        min-width: 130px;
+    }
+
     .hideOnXl {
         display: none;
     }
@@ -260,6 +280,26 @@
         margin-top: 20px;
     }
 
+    .content__category1-item5,
+    .content__category2-item5,
+    .content__category3-item5,
+    .content__category4-item5,
+    .content__category5-item5,
+    .content__category6-item5,
+    .content__category8-item5 {
+        margin-top: 20px;
+    }
+
+    .news_img {
+        height: 100px;
+    }
+
+    .serviceList__item-img {
+        height: 80px;
+        width: 120px;
+        min-width: 120px;
+    }
+
     .hideOnLg {
         display: none;
     }
@@ -383,6 +423,48 @@
 
     .content__navBar-item4,
     .content__navBar-item5 {
+        margin-top: 20px;
+    }
+
+    .content__bestSeller-item3 {
+        margin-top: 20px;
+    }
+
+    .content__saleProduct-item4,
+    .content__saleProduct-item5 {
+        margin-top: 20px;
+    }
+
+    .content__category1-item4,
+    .content__category1-item5,
+    .content__category2-item4,
+    .content__category2-item5,
+    .content__category3-item4,
+    .content__category3-item5,
+    .content__category4-item4,
+    .content__category4-item5,
+    .content__category5-item4,
+    .content__category5-item5,
+    .content__category6-item4,
+    .content__category6-item5,
+    .content__category8-item4,
+    .content__category8-item5 {
+        margin-top: 20px;
+    }
+
+    .news_img {
+        height: 70px;
+    }
+
+    .footer__shopInfo-item4 {
+        margin-bottom: 20px;
+    }
+
+    .content__solutionList {
+        margin-bottom: 20px;
+    }
+
+    .content-newsPage__pageBar {
         margin-top: 20px;
     }
 
@@ -521,6 +603,54 @@
     .content__navBar-item4,
     .content__navBar-item5 {
         margin-top: 20px;
+    }
+
+    .content__bestSeller-item2,
+    .content__bestSeller-item3 {
+        margin-top: 20px;
+    }
+    
+    .content__saleProduct-item3,
+    .content__saleProduct-item4,
+    .content__saleProduct-item5 {
+        margin-top: 20px;
+    }
+
+    .content__category1-item4,
+    .content__category1-item5,
+    .content__category2-item4,
+    .content__category2-item5,
+    .content__category3-item4,
+    .content__category3-item5,
+    .content__category4-item4,
+    .content__category4-item5,
+    .content__category5-item4,
+    .content__category5-item5,
+    .content__category6-item4,
+    .content__category6-item5,
+    .content__category8-item4,
+    .content__category8-item5 {
+        margin-top: 20px;
+    }
+
+    .news_img {
+        height: 70px;
+    }
+
+    .footer__shopInfo-item4 {
+        margin-bottom: 20px;
+    }
+
+    .content__solutionList {
+        margin-bottom: 20px;
+    }
+
+    .content-newsPage__pageBar {
+        margin-top: 20px;
+    }
+
+    .content__newsList {
+        margin-bottom: 20px;
     }
 
     .hideOnSm {
@@ -676,10 +806,74 @@
         margin-top: 20px;
     }
 
+    .content__bestSeller-item2,
+    .content__bestSeller-item3 {
+        margin-top: 20px;
+    }
+
+    
+    .content__saleProduct-item3,
+    .content__saleProduct-item4,
+    .content__saleProduct-item5 {
+        margin-top: 20px;
+    }
+    
+    .content__category1-item3,
+    .content__category1-item4,
+    .content__category1-item5,
+    .content__category2-item3,
+    .content__category2-item4,
+    .content__category2-item5,
+    .content__category3-item3,
+    .content__category3-item4,
+    .content__category3-item5,
+    .content__category4-item3,
+    .content__category4-item4,
+    .content__category4-item5,
+    .content__category5-item3,
+    .content__category5-item4,
+    .content__category5-item5,
+    .content__category6-item3,
+    .content__category6-item4,
+    .content__category6-item5,
+    .content__category8-item3,
+    .content__category8-item4,
+    .content__category8-item5 {
+        margin-top: 20px;
+    }
+
+    .news_img {
+        height: 85px;
+    }
+
+    .footer__shopInfo-item4 {
+        margin-bottom: 20px;
+    }
+
+    .content__solutionList {
+        margin-bottom: 20px;
+    }
+
+    .content-newsPage__pageBar {
+        margin-top: 20px;
+    }
+
+    .content-introductionPage {
+        margin: 0px 10px;
+    }
+
+    .content-onlineBillPage {
+        margin-left: 10px;
+    }
+
+    .content__newsList {
+        margin-bottom: 20px;
+    }
+
     .hideOnXsm {
         display: none;
     }
-
+    
     .showOnXsm {
         display: block;
     }
