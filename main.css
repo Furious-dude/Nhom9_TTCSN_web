@@ -153,8 +153,8 @@
 }
 
 .user__DropDownMenu-Account {
-    background-color: var(--orange1);
-    color: var(--white1);
+    background-color: var(--white1);
+    color: var(--black);
     cursor: pointer;
 }
 
@@ -2628,4 +2628,340 @@
 .categoryForBelowLarge__item8-subMenu-item3:hover .categoryForBelowLarge__item8-subMenu-item-icon,
 .categoryForBelowLarge__item8-subMenu-item4:hover .categoryForBelowLarge__item8-subMenu-item-icon {
     border-color: var(--red1);
+}
+
+.signUpFormOverLay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+
+.signUpForm {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: var(--white1);
+    z-index: 2;
+    height: 540px;
+    width: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: none;
+}
+
+.signUpForm__heading {
+    margin: 20px;
+    color: var(--orange1);
+}
+
+.signUpForm__body {
+    margin: 0px 20px;
+}
+
+.signUpForm__body-userFirstName,
+.signUpForm__body-userLastName {
+    display: flex;
+    flex-direction: column;
+}
+
+.userFirstName__inputText,
+.userLastName__inputText {
+    margin-bottom: 10px;
+}
+
+.userFirstName__input,
+.userLastName__input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid var(--grey1);
+}
+
+.signUpForm__body-phonenumberAndPassword {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpForm__signUpCancelIcon {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: var(--orange1);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signUpForm__signUpCancelIcon:hover {
+    font-size: 30px;
+    top: 20px;
+}
+
+.phonenumber__input,
+.password__input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--grey1);
+}
+
+.phonenumber__input {
+    margin: 10px 0px;
+}
+
+.password__input {
+    margin: 10px 0px;
+}
+
+.signUpForm__body-continue {
+    background-color: var(--orange1);
+    color: var(--white1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border: 1px solid var(--orange1);
+    cursor: pointer;
+}
+
+.signUpForm__body-continue:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.signUpForm__footer {
+    margin: 20px;
+}
+
+.signUpForm__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUpForm__footer-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.signUpForm__footer-facebookAndGoogleSignUp {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.signUpForm__footer-googleSignUp,
+.signUpForm__footer-facebookSignUp {
+    background-color: var(--orange1);
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white1);
+    cursor: pointer;
+    border: 1px solid var(--orange1);
+    max-height: 40px;
+}
+
+.signUpForm__footer-facebookSignUp {
+    margin-right: 5px;
+}
+
+.signUpForm__footer-facebookSignUp:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.signUpForm__footer-googleSignUp {
+    margin-left: 5px;
+}
+
+.signUpForm__footer-googleSignUp:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.googleSignUp__text,
+.facebookSignUp__text {
+    margin-right: 7px;
+}
+
+.googleSignUp__icon,
+.facebookSignUp__icon {
+    font-size: 20px;
+}
+
+.haveAccount__logIn {
+    cursor: pointer;
+    color: var(--orange1);
+}
+
+.logInFormOverLay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+
+.logInForm {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: var(--white1);
+    z-index: 2;
+    height: 410px;
+    width: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: none;
+}
+
+.logInForm__heading {
+    margin: 20px;
+    color: var(--orange1);
+}
+
+.logInForm__body {
+    margin: 0px 20px;
+}
+
+.logInForm__body-phonenumberAndPassword {
+    display: flex;
+    flex-direction: column;
+}
+
+.phonenumber__input,
+.password__input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--grey1);
+}
+
+.phonenumber__input {
+    margin: 10px 0px;
+}
+
+.password__input {
+    margin: 10px 0px;
+}
+
+.logInForm__body-continue {
+    background-color: var(--orange1);
+    color: var(--white1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border: 1px solid var(--orange1);
+    cursor: pointer;
+}
+
+.logInForm__body-continue:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.logInForm__footer {
+    margin: 20px;
+}
+
+.logInForm__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logInForm__footer-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logInForm__footer-facebookAndGoogleLogIn {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logInForm__footer-googleLogIn,
+.logInForm__footer-facebookLogIn {
+    background-color: var(--orange1);
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white1);
+    cursor: pointer;
+    border: 1px solid var(--orange1);
+    max-height: 40px;
+}
+
+.logInForm__footer-facebookLogIn {
+    margin-right: 5px;
+}
+
+.logInForm__footer-facebookLogIn:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.logInForm__footer-googleLogIn {
+    margin-left: 5px;
+}
+
+.logInForm__footer-googleLogIn:hover {
+    background-color: var(--white1);
+    color: var(--orange1);
+}
+
+.googleLogIn__text,
+.facebookLogIn__text {
+    margin-right: 7px;
+}
+
+.googleLogIn__icon,
+.facebookLogIn__icon {
+    font-size: 20px;
+}
+
+.haveAccount__LogIn {
+    cursor: pointer;
+    color: var(--orange1);
+}
+
+.logInForm__logInCancelIcon {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: var(--orange1);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logInForm__logInCancelIcon:hover {
+    font-size: 30px;
+    top: 20px;
+}
+
+.logInForm__body-forgotPassword {
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--orange1);
 }

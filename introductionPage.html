@@ -48,14 +48,14 @@
                 <i class="fa-solid fa-user header__userIcon"></i>
                 <div class="header__user-DropDownMenu">
                     <span class="user__DropDownMenu-Arrow"></span>
-                    <div class="user__DropDownMenu-Account">
+                    <div onclick="signUpForm()" class="user__DropDownMenu-Account">
                         <span class="DropDownMenu-Account__text">
-                            Tài khoản
+                            Đăng ký 
                         </span>
                     </div>
-                    <div class="user__DropDownMenu-LogOut">
+                    <div onclick="logInForm()" class="user__DropDownMenu-LogOut">
                         <span class="DropDownMenu-Account__text">
-                            Đăng xuất
+                            Đăng nhập 
                         </span>
                     </div>
                 </div>
@@ -827,5 +827,108 @@
         <i class="fa-solid fa-envelope emailContact__icon"></i>
     </div>
     <script src="main.js"></script>
+    <div onclick="signUpForm()" class="signUpFormOverLay" id="signUpFormOverLay">
+    </div>
+    <div class="signUpForm" id="signUpForm">
+        <i onclick="signUpForm()" class="fa-solid fa-circle-xmark signUpForm__signUpCancelIcon"></i>
+        <h2 class="signUpForm__heading">
+            Đăng ký 
+        </h2>
+        <div class="signUpForm__body">
+            <div class="signUpForm__body-userFirstName">
+                <span class="userFirstName__inputText">
+                    Họ 
+                </span>
+                <input type="text" class="userFirstName__input">
+            </div>
+            <div class="signUpForm__body-userLastName">
+                <span class="userLastName__inputText">
+                    Tên 
+                </span>
+                <input type="text" class="userLastName__input">
+            </div>
+            <div class="signUpForm__body-phonenumberAndPassword">
+                <input type="text" class="phonenumber__input" placeholder="Nhập số điện thoại">
+                <input type="text" class="password__input" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="signUpForm__body-continue">
+                Tiếp tục 
+            </div>
+        </div>
+        <div class="signUpForm__footer">
+            <span class="signUpForm__footer-heading">
+                Hoặc 
+            </span>
+            <div class="signUpForm__footer-facebookAndGoogleSignUp">
+                <div class="signUpForm__footer-facebookSignUp">
+                    <span class="facebookSignUp__text">
+                        Facebook
+                    </span>
+                    <i class="fa-brands fa-square-facebook facebookSignUp__icon"></i>
+                </div>
+                <div class="signUpForm__footer-googleSignUp">
+                    <span class="googleSignUp__text">
+                        Google
+                    </span>
+                    <i class="fa-brands fa-google googleSignUp__icon"></i>
+                </div>
+            </div>
+            <div class="signUpForm__footer-haveAccount">
+                <span class="haveAccount__text">
+                    Bạn đã có tài khoản?
+                </span>
+                <span class="haveAccount__logIn">
+                    Đăng nhập
+                </span>
+            </div>
+        </div>
+    </div>
+    <div onclick="logInForm()" class="logInFormOverLay" id="logInFormOverLay">
+    </div>
+    <div class="logInForm" id="logInForm">
+        <i onclick="logInForm()" class="fa-solid fa-circle-xmark logInForm__logInCancelIcon"></i>
+        <h2 class="logInForm__heading">
+            Đăng nhập 
+        </h2>
+        <div class="logInForm__body">
+            <div class="logInForm__body-phonenumberAndPassword">
+                <input type="text" class="phonenumber__input" placeholder="Nhập số điện thoại">
+                <input type="text" class="password__input" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="logInForm__body-continue">
+                Tiếp tục 
+            </div>
+            <span class="logInForm__body-forgotPassword">
+                Quên mật khẩu? 
+            </span>
+        </div>
+        <div class="logInForm__footer">
+            <span class="logInForm__footer-heading">
+                Hoặc 
+            </span>
+            <div class="logInForm__footer-facebookAndGoogleLogIn">
+                <div class="logInForm__footer-facebookLogIn">
+                    <span class="facebookLogIn__text">
+                        Facebook
+                    </span>
+                    <i class="fa-brands fa-square-facebook facebookLogIn__icon"></i>
+                </div>
+                <div class="logInForm__footer-googleLogIn">
+                    <span class="googleLogIn__text">
+                        Google
+                    </span>
+                    <i class="fa-brands fa-google googleLogIn__icon"></i>
+                </div>
+            </div>
+            <div class="logInForm__footer-haveAccount">
+                <span class="haveAccount__text">
+                    Bạn chưa có tài khoản?
+                </span>
+                <span class="haveAccount__logIn">
+                    Đăng ký
+                </span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

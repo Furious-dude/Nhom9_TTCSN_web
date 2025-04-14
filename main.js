@@ -55,3 +55,29 @@ function subMenu8Display() {
     if (dl.style.display == "none") dl.style.display = "block";
     else dl.style.display = "none";
 }
+
+function signUpForm() {
+    var dl1 = document.getElementById("signUpFormOverLay");
+    var dl2 = document.getElementById("signUpForm");
+    if (dl1.style.display == "none" && dl2.style.display == "none") {
+        dl1.style.display = "block";
+        dl2.style.display = "block";
+    }
+    else {
+        dl1.style.display = "none";
+        dl2.style.display = "none";
+    }
+}
+
+function logInForm() {
+    var dl1 = document.getElementById("logInFormOverLay");
+    var dl2 = document.getElementById("logInForm");
+    if (dl1.style.display == "none" && dl2.style.display == "none") {
+        dl1.style.display = "block";
+        dl2.style.display = "block";
+    }
+    else {
+        dl1.style.display = "none";
+        dl2.style.display = "none";
+    }
+}
